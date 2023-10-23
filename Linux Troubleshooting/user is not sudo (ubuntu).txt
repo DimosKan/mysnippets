@@ -1,0 +1,20 @@
+ su - root
+ 
+ sudo visudo
+ 
+ θα ανοιξει ενα αρχείο, θα δεις το παρακάτω:
+ 
+ # User privilege specification
+root    ALL=(ALL:ALL) ALL
+
+πρόσθεσε δικό σου user:
+
+ # User privilege specification
+root    ALL=(ALL:ALL) ALL
+dimos	ALL=(ALL:ALL) ALL
+
+άλλαξε στον χρήστη που πρέπει
+
+su = dimos 
+
+

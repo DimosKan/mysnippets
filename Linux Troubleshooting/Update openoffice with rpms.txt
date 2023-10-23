@@ -1,0 +1,3 @@
+1) Go to the rpm collection directory
+2) sudo rpm -Uvh <rpm_filename.rpm>
+3) I used sudo rpm -Uvh *.rpm to update all the packages

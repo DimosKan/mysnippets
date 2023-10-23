@@ -1,0 +1,10 @@
+//Για την περίπτωση που 2 πινακες χρησιμοποιουν κοινο id, ψάχνει να βρει ποια γραμμη από τον έναν πίνακα δεν έχει το id που αντιστοιχεί στον άλλον πίνακα
+
+
+SELECT wi.*
+FROM tblwasteincoming AS wi
+LEFT JOIN tblwasteclients AS wc_collector
+    ON wi.wi_client_collector = wc_collector.PKID
+LEFT JOIN tblwasteclients AS wc_producer
+    ON wi.wi_client_producer = wc_producer.PKID
+WHERE wc_collector.PKID IS NULL OR wc_producer.PKID IS NULL;

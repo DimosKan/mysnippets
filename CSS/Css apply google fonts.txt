@@ -1,0 +1,12 @@
+library (html)
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ENTER+FAMILY+NAME+HERE">
+
+(αν το family name εχει κενά βάλε + στο link και αν θες πολλαπλές βάλε | και γράψε και άλλο font)
+
+παράδειγμα CSS
+
+h5 {
+    font-family: "ENTER FAMILY NAME HERE", sans-serif;
+    color:#31485e!important;
+}  
